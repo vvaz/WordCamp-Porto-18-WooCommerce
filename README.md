@@ -2,9 +2,11 @@
 
 Para adicionar um slide é só preciso fazer:
 
+```
 <slide>
 	Conteúdo
 </slide>
+```
 
 Suporta HTML, links, etc.
 
