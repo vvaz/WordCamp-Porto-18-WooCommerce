@@ -11,8 +11,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #222;
-  background-color: #222; }
+  background: #3F7E84;
+  background-color: #442E89; }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -205,16 +205,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #42affa;
+  color: #98d4f9;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
-  transition: color .15s ease; }
+  transition: color .15s ease;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+}
 
 .reveal a:hover {
-  color: #8dcffc;
-  text-shadow: none;
-  border: none; }
+  color: #8ff1fb;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  text-shadow: none; }
 
 .reveal .roll span:after {
   color: #fff;
